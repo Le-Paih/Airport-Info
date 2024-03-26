@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add transition properties */
+.transition-all {
+  transition-property: all;
+  transition-duration: 0.3s; /* Adjust duration as needed */
+  transition-timing-function: ease; /* Adjust timing function as needed */
+}
