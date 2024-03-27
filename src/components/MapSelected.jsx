@@ -21,13 +21,13 @@ function MapSelected({ airport }) {
   );
 
   const customIcon = L.icon({
-    iconUrl: "/public/airport-icon2.png",
+    iconUrl: "/airport-icon2.png",
     iconSize: [38, 38],
     iconAnchor: [16, 32],
   });
 
   const tileLayerUrl = darkMode
-    ? "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+    ? "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
     : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
   return (
