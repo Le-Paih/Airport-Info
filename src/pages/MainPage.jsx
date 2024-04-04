@@ -4,7 +4,6 @@ import Intro from "../components/Intro";
 import Interactive from "./Interactive";
 import Title from "../components/Title";
 import SearchTitle from "../components/SearchTitle";
-import Footer from "../components/Footer";
 
 function MainPage() {
   useEffect(() => {
@@ -16,14 +15,16 @@ function MainPage() {
   }, []);
 
   return (
-    <div className="dark:bg-dGrey mx-auto mt-[3.9rem] min-h-screen w-screen overflow-x-hidden transition duration-300 md:mt-[4.64rem]">
+    <div className="mx-auto h-auto min-h-screen w-screen overflow-x-hidden transition duration-300 dark:bg-dGrey ">
       <Title />
       <Intro />
       <SearchTitle />
       <Interactive />
-      <Footer />
     </div>
   );
 }
 
 export default MainPage;
+
+// mt-[3.9rem]
+// md:mt-[4.64rem]

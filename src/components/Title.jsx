@@ -1,7 +1,7 @@
 function Title() {
   return (
-    <div className="pt-10 text-center" id="home">
-      <h1 className="dark:text-dWhite text-5xl font-bold">
+    <div className="pt-[7rem] text-center" id="home">
+      <h1 className="text-5xl font-bold dark:text-dWhite">
         Welcome to Airport Info
       </h1>
     </div>

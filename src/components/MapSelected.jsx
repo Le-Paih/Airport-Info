@@ -31,7 +31,7 @@ function MapSelected({ airport }) {
     : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
   return (
-    <div className=" z-10 mb-5 mt-10 w-full rounded-md px-12 pb-1 md:px-6 lg:px-12">
+    <div className=" z-10 mb-5 mt-10 w-full rounded-md px-0 pb-1 sm:px-8 md:px-6 lg:px-12">
       <MapContainer
         center={[airport?.latitudeAirport || 0, airport?.longitudeAirport || 0]}
         zoom={12}

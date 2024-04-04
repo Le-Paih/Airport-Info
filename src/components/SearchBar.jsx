@@ -6,7 +6,7 @@ function SearchBar({ handleSearch, searchQuery }) {
         placeholder="Search for an airport..."
         value={searchQuery}
         onChange={handleSearch}
-        className="dark:focus:ring-dPurple dark:bg-overlay w-3/5 justify-center rounded-lg bg-neutral-100 px-2 py-2 text-base capitalize transition-all duration-300 placeholder:lowercase focus:outline-none focus:ring focus:ring-blue-600 focus:ring-opacity-65 dark:text-white"
+        className="mx-2 w-full justify-center rounded-lg bg-neutral-100 px-2 py-2 text-base capitalize transition-all duration-300 placeholder:lowercase focus:outline-none focus:ring focus:ring-blue-600 focus:ring-opacity-65 dark:bg-overlay dark:text-white dark:focus:ring-dPurple sm:mx-8 md:mx-0 md:w-3/5"
       />
     </div>
   );

@@ -26,10 +26,10 @@ function AirportInfo({ airport, onCloseAirport }) {
   );
 
   return (
-    <div className="mb-5 mt-10 flex w-full flex-col">
-      <div className="dark:bg-overlay mx-12 h-96 overflow-scroll overflow-y-auto overflow-x-hidden rounded-md p-2 shadow-md transition duration-300 sm:px-3 md:mx-6 md:p-4 lg:mx-12 dark:text-white dark:shadow-none">
+    <div className="mb-5 mt-10 flex w-full flex-col ">
+      <div className="mx-0 h-96 overflow-scroll overflow-y-auto overflow-x-hidden rounded-md p-2 shadow-md transition duration-300 dark:bg-overlay dark:text-white dark:shadow-none sm:mx-8 sm:px-3 md:mx-6 md:p-4 lg:mx-12">
         <button
-          className="dark:hover:text-dPurple flex flex-row transition duration-200  hover:text-blue-600"
+          className="flex flex-row transition duration-200 hover:text-blue-600  dark:hover:text-dPurple"
           onClick={onCloseAirport}
         >
           <ArrowUturnLeftIcon className="my-auto h-4 w-4" />{" "}

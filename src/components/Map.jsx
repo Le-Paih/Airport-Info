@@ -18,7 +18,7 @@ function Map() {
   });
 
   return (
-    <div className=" z-10 mb-5 mt-10 w-full rounded-md px-14 pb-1">
+    <div className=" z-10 mb-5 mt-10 w-full rounded-md  px-0 pb-1 sm:px-8 md:px-6 lg:px-12">
       <MapContainer
         center={[51.505, -0.09]}
         zoom={13}

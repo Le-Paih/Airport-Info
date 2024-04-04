@@ -30,7 +30,7 @@ function Interactive() {
   return (
     <div>
       <SearchBar handleSearch={handleSearch} searchQuery={searchQuery} />
-      <div className="mx-2 mb-6 grid h-[28rem] md:mx-10  md:grid-cols-2">
+      <div className="mx-2 mb-6 grid h-[28rem] md:mx-10 md:grid-cols-2">
         {selectedId ? (
           <SelectedAirport
             airport={selectedAirport}
